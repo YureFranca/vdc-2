@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 05/09</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+	body {
+		font-family: Arial;
+		font-size: 18px;
+	}
+	table {
+		border-radius: 5px;
+	}
+	td {
+		border-radius: 5px;
+	}
+	#center {
+		text-align: center;
+	}
+	.blue {
+		color: white;
+		background-color: purple;
+	}
+	tr:hover{
+		color: white;
+		background-color: #999;
+	}
+</style>
+<body>
+	<h3>Tabelas</h3>
+	<table border="1"><!-- Criar Tabela -->
+		<caption>Exemplo de Tabela</caption><!-- Legenda -->
+		<tr><!-- Cria uma Linha -->
+			<td>Linha 1 Coluna 1</td><!-- Cria uma Coluna -->
+			<td>Linha 1 Coluna 2</td><!-- Cria uma Coluna -->
+		</tr>
+		<tr><!-- Cria uma Linha -->
+			<td>Linha 2 Coluna 1</td><!-- Cria uma Coluna -->
+			<td>Linha 2 Coluna 2</td><!-- Cria uma Coluna -->
+		</tr>
+	</table>
+	<hr>
+	<table border="1" align="center" width="60%"><!-- Criar Tabela -->
+		<tr id="center">
+			<td class="blue"><strong>Nome</strong></td>
+			<td class="blue"><strong>Endereço</strong></td>
+			<td class="blue" colspan="2"><strong>Telefone</strong></td>
+		</tr>
+		<tr>
+			<td>Sebastião Gualberto</td>
+			<td>Rua Cassiano Ricardo, 1100</td>
+			<td>(12) 3941-2738</td>
+			<td>(12) 3941-2738</td>
+		</tr>
+		<tr>
+			<td>Karina Guela</td>
+			<td>Rua Coiso, 100</td>
+			<td>(12) 0986-9876</td>
+			<td>(12) 2423-8745</td>
+		</tr>
+	</table>
+</body>
+</html>
